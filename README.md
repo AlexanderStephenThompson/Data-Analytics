@@ -1,3 +1,11 @@
-# World Building
+# Practical Arithmaetic
 
-With Blender and Unity :D
+## Algebra
+
+## Spatial
+
+## Statistics
+
+## Calculus
+
+## Discrete Math
