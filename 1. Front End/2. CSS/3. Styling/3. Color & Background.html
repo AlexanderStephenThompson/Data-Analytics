@@ -1,0 +1,91 @@
+<!--
+CSS color names: https://www.w3schools.com/cssref/css_colors.asp
+
+
+Color pickers
+https://www.w3schools.com/colors/colors_picker.asp
+
+General Color Syntax:
+element {
+color: value;        /* Sets the color of the the text within an element */
+background: value;   /* Sets the color of the background of an element; good for html, sections or paragraphs */
+border-color: value; /* Sets the color of the element's border */
+}
+
+background syntax
+element {
+background-color: <color>;
+background-image: url(<path>);
+background-position: <%> <length> top/center/bottom/left/right;
+background-repeat: repeat/repeat-x/repeat-y/no-repeat;
+background-origin:
+background-attachment: scroll/fixed;
+}
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colors</title>
+  </head>
+
+  <body>
+
+    <section id='Colors'>
+      <h1>Colors</h1>
+
+        <h2>Keyword Values</h2>
+        <a href="https://www.rapidtables.com/web/css/css-color.html">List of colors by group.</a>
+
+        <h2>RGB Colors</h2>
+        <p>An RGB color value is specified with: rgb( RED , GREEN , BLUE ).</p>
+
+        <!--
+        background-color: rgb(255, 255, 128);   /* Fully opaque */
+        background-color: rgba(117, 190, 218, 0.5);  /* 50% transparent */
+        -->
+
+        <h2>Hexadecimal colors</h2>
+        <p>A hexadecimal color is specified with: #RRGGBB.</p>
+
+        <!-- background-color: #bbff00;    /* Fully opaque */
+        background-color: #bf0;       /* Fully opaque shorthand */
+        background-color: #11ffee00;  /* Fully transparent */
+        background-color: #1fe0;      /* Fully transparent shorthand  */
+        background-color: #11ffeeff;  /* Fully opaque */
+        background-color: #1fef;      /* Fully opaque shorthand  */ -->
+
+        <h2>HSL</h2>
+        <a href="https://www.w3schools.com/css/css_colors_hsl.asp">hsl & hsla guide on w3schools</a>
+        <p>
+          hsl(hue, saturation, lightness) <br>
+          Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue. <br>
+          Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color. <br>
+          Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white. <br>
+        </p>
+
+          <h3>HSLA</h3>
+          <p>
+            hsla(hue, saturation, lightness, alpha) <br>
+            The alpha parameter is a number between 0.0 (fully transparent) and 1.0
+            (not transparent at all)
+          </p>
+    </section>
+
+
+    <section id="Backgrounds">
+      <h1>Backgrounds</h1>
+
+      <h2>Background Images</h2>
+      <div class="Top Left">
+        <div class="">
+
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+</html>

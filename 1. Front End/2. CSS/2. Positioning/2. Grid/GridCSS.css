@@ -1,0 +1,30 @@
+#Container {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "Head Head"
+    "Side Main"
+    "Foot Foot";
+}
+
+#Header {
+  grid-area: Head;
+  background-color: pink;
+}
+#Sidebar {
+  grid-area: Side;
+  background-color: pink;
+  height: 500px;
+}
+#MainContent {
+  padding:1rem;
+  grid-area: Main;
+  background-color: pink;
+}
+
+
+#Footer {
+  grid-area: Foot;
+  background-color: pink;
+}

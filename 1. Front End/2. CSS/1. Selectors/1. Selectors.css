@@ -1,0 +1,69 @@
+/* Single selections */
+
+* {Select everything
+Example: *
+*	Selects all elements}
+
+p {Single selection
+element
+Example: p
+Selects all <p> elements}
+
+h1, h2, h3 {Multiple Selectors
+element, element
+Example: h1, h2, h3
+Selects all of  the primary (1-3) header elements}
+
+.Intro {Class selector
+.class
+Example:.Intro
+Selects all elements with class="Intro"}
+
+#First_Section {ID selector
+#id
+Example:#First_Section
+Selects the element with id = "First_Section"}
+
+
+~~~
+/* Hierarchical Selectors (Spaces!) */
+.Section_Name h1 {Descendant selector
+Parent Child
+Example: .Section_Name h1
+Selects all h1 elements within the Section_Name class.
+The h1 can be an immediate or eventual descendant of the parent element at any time, and it’ll still be selected.}
+
+div > p {Direct child selector
+element > element
+Example: div > p
+Selects all child <p> elements within the parent <div> element}
+
+
+/* Same Level Selectors (No spaces!) */
+div.Section {same-level/sibling selectors
+element.class
+Example: div.Section
+Selects the specific <div> elements with have a class = "Section".
+Both elements are of equal hierarchy; no parent or child. Best used with elements and classes.}
+
+
+~~~
+/* Misc... */
+h1 + p {First/Adjacent Sibling
+Element + element
+Example: h1 + p
+Selects only the first <p> occurrence of the same level <h1> sibling.
+So only the first paragraph of the h1 would be altered. (Not used often)}
+
+h1 ~ p {General/All Sibling
+element1 ~ element2
+Example: h1 ~ p
+Selects only the first <p> occurrence of the same level <h1> sibling.
+So all paragraphs of the h1 would be altered. (Not used often)}
+
+/* Child Elements */
+li:nth-child(3){someRule: someValue}
+li:nth-child(even){someRule: someValue}
+li:nth-child(odd){someRule: someValue}
+li:first-child{someRule: someValue}
+li:last-child{someRule: someValue}

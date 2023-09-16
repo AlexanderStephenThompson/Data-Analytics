@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face is the CSS at-rule to use to define custom fonts to be made available
+to your web pages. With @font-face, you provide a path to a font file that’s on the
+same domain as your CSS file, so this mean that the rule should be used with fonts that
+are hosted on your servers.
+
+/* Helpful links
+
+https://www.w3schools.com/css/css_text.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/font
+ */
+
+/* Syntax */
+element {
+  font-style:
+  font-variant:
+  font-weight:
+  font-size/line-height:
+  font-family:}
+
+/* Font weight */
+normal	Standard weight. Equivalent of 400.
+bold	Bold weight. Equivalent of 700.
+bolder	Bolder than the inherited font weight.
+lighter	Lighter than the inherited font weight.
+
+100	Lightest.
+200
+300	
+400; Equivalent of normal.
+500
+600
+700; Equivalent of bold.
+800
+900	Boldest.
+
+The font-family property should hold several font names as a "fallback" system,
+to ensure maximum compatibility between browsers/operating systems. If the browser
+does not support the first font, it tries the next font.
+
+/* Text Alignment */
+element {
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
+}
+
+/* Vertical alignment */
+element {
+  vertical-align: text-top;
+  vertical-align: baseline;
+  vertical-align: text-bottom;
+}
+
+/* Transformation */
+p.uppercase {
+  text-transform: uppercase;}
+
+p.lowercase {
+  text-transform: lowercase;}
+
+p.capitalize {
+  text-transform: capitalize;}
+
+
+/* Scaling */
+
+Pixels
+
+Percentages
+
+EMS

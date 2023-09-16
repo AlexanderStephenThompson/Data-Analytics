@@ -1,0 +1,6 @@
+/* Pseudo-class Selection */
+:hover - Attributes are applied when a user hovers over an element. Perfect for
+buttons, links, table rows and so on.
+
+:active - Applied when an elemeny id being activated by a user, like when a button
+is being pressed or a link being clicked.
