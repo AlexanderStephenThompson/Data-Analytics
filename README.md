@@ -1,11 +1,8 @@
-# Practical Arithmaetic
+# Web Development
 
-## Algebra
+## Front End
+The easy stuff: HTML, CSS, and JavaScript. 
 
-## Spatial
+## Intermedaries
 
-## Statistics
-
-## Calculus
-
-## Discrete Math
+## Backend
