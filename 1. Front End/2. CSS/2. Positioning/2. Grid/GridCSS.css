@@ -8,23 +8,27 @@
     "Foot Foot";
 }
 
+#Header, #Sidebar, #MainContent, #Footer {
+  padding: 1rem;
+}
+
 #Header {
   grid-area: Head;
   background-color: pink;
 }
+
 #Sidebar {
   grid-area: Side;
-  background-color: pink;
+  background-color: rgb(219, 152, 163);
   height: 500px;
 }
-#MainContent {
-  padding:1rem;
-  grid-area: Main;
-  background-color: pink;
-}
 
+#MainContent {
+  grid-area: Main;
+  background-color: rgb(240, 124, 143);
+}
 
 #Footer {
   grid-area: Foot;
-  background-color: pink;
+  background-color: rgb(72, 39, 44);
 }
