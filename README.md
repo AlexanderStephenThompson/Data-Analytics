@@ -1,10 +1,8 @@
-# Full-Stack Web Development
+# Practical Tools
+All of these are aimed to help with data engineering tools, striving to help with the early stages of data manipulation.
 
-## Front End
-The easy stuff: HTML, CSS, and JavaScript. 
+## APIs
 
-## Intermedaries
-HTTP & APIs
+## Bots
 
-## Backend
-Logic and other junk.
+## Extensions
