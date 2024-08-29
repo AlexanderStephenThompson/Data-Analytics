@@ -1,7 +1,0 @@
-{
-    "Strings": "Test",
-    "Numbers": 1,
-    "Booleans": true,
-    "Arrays": [ "Value1", "Value2",  "Value3" ],
-    "Objects": {"Name": "Rufus", "Age":28, "IsBouncy": true}
-}
